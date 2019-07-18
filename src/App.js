@@ -19,7 +19,7 @@ changeInputValue = (event) => {
   this.setState({inputValue: event.target.value})
 }
 deleteRow = (event) => {
-  this.setState({result: event.target.value})
+  this.setState({result     : event.target.value})
 }
 
 plus = () => {
